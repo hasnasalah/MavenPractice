@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Test Suite">
+<!--    <test verbose="2" preserve-order="true" name="C:/Users/hasna/IdeaProjects/MavenPracticeFrameWork/src/test/resources">-->
+<!--        <classes/>-->
+    <parameter name="userCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserStack"/>
+        <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="11"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="111"/>
+    <parameter name="url" value="https://www.amazon.com/"/>
+
+
+<test name="Amazon Test Automation">
+<classes>
+  <class name="amazonTests.AmazonHomePageTest2"/>
+<!--    <class name="amazonTests.AmazonFooterHomePageTest"/>-->
+<!--    <class name="amazonTests.AmazonSignInPageTest"/>-->
+</classes>
+
+    </test>
+
+
+
+
+</suite>

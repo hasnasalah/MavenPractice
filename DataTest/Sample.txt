@@ -1,0 +1,24 @@
+A Java class constructor initializes instances (objects) of that class.
+Typically, the constructor initializes the fields of the object that need initialization.
+Java constructors can also take parameters, so fields can be initialized in the object at creation time.
+Mahmud
+Fokrul
+Aziz
+Hasna
+Fatema
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
