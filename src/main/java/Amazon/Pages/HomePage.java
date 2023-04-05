@@ -69,8 +69,7 @@ public class HomePage extends WebTestBase {
         //mouseHoverByWebElementWithPerform(hover);
         Actions actions = new Actions(driver);
         actions.moveToElement(hover).perform();
-        Thread.sleep(10000);
-        // explicitWaitForElementUsingVisibilityOf(elementToHover);
+        explicitWaitForElementUsingVisibilityOf(elementToHover);
         ClickWebElement(elementToHover);
         verifyText(actual,expected,"result doesn't match");
     }

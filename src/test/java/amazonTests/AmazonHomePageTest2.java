@@ -37,7 +37,8 @@ public class AmazonHomePageTest2 extends WebTestBase {
     }
     @Test
     public void verifyMouseHover() throws InterruptedException {
-        tryHoverOverMouse("New members, try Prime");
+        getInitElement();
+        homePage.tryHoverOverMouse("New members, try Prime\nfree for 30 days");
     }
 
 }
